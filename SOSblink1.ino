@@ -1,6 +1,5 @@
 /* Created on 2022
  *  Last modification: 21st April 2022
- *  by Villares
  */
 const int ledPin = 5;           // LED connected to pin number 5
 
