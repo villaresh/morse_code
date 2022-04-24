@@ -1,5 +1,5 @@
 /*  Created on 2022
- *  Last modification: 23st April 2022
+ *  Last modification: 23rd April 2022
  *  This code permits to write dots and dashes in a Serial Monitor and it is executed on the LED
  */
 int lightPin = 5;           // LED connected to pin number 5
