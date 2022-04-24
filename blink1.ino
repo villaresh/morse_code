@@ -1,3 +1,7 @@
+/*  Created on 2022
+ *  Last modification: 23st April 2022
+ *  This code permits to write dots and dashes in a Serial Monitor and it is executed on the LED
+ */
 int lightPin = 5;           // LED connected to pin number 5
 
 void setup() {
@@ -7,7 +11,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // main code, to run repeatedly
   if (Serial.available()) {
     String input = Serial.readString();
     String morse = filterMorse(input);
@@ -38,9 +42,10 @@ void showMorse(String morse) {
     digitalWrite(lightPin, HIGH);
 
     if (c == '-') {
-      //show long dah
+      // dash
       delay(1500);
     } else {
+      // dot
       delay(500);
     }
     
