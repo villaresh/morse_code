@@ -1,2 +1,2 @@
 # Arduino
-Codes for exectute Morse Code (with LED and Buzzer) in Arduino IDE.
+Codes to execute Morse Code (with LED and Buzzer) in Arduino IDE.
